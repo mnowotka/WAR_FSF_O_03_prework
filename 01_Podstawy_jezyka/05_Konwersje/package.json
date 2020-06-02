@@ -1,0 +1,16 @@
+{
+  "name": "05_konwersje",
+  "version": "1.0.0",
+  "description": "Konwersje",
+  "main": "index.js",
+  "scripts": {
+    "conversions": "nodemon src/konwersje.js",
+    "equality": "nodemon src/rownosc.js",
+    "truthy-falsy": "nodemon src/truthy-falsy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

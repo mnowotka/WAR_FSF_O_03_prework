@@ -1,0 +1,13 @@
+{
+  "name": "10_operatory_typow",
+  "version": "1.0.0",
+  "description": "Operatory typów",
+  "scripts": {
+    "club": "nodemon club.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

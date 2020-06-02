@@ -1,0 +1,21 @@
+---
+exercises:
+  01_Array API:
+    max_points: 0
+    disabled: true
+  02_String - metody:
+    max_points: 0
+    disabled: true
+  03_Destrukturyzacja - rest i spread:
+    max_points: 0
+    disabled: true
+  04_Funkcje:
+    max_points: 0
+    disabled: true
+  05_Mapy i sety:
+    max_points: 0
+    disabled: true
+  06_Gettery i Settery:
+    max_points: 0
+    disabled: true
+...

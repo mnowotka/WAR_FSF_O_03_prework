@@ -1,0 +1,33 @@
+---
+exercises:
+  01_If - Else:
+    max_points: 0
+    disabled: true
+  "02_Operator potr\xF3jny":
+    max_points: 0
+    disabled: true
+  "03_Warto\u015Bci domy\u015Blne":
+    max_points: 0
+    disabled: true
+  04_Switch case:
+    max_points: 0
+    disabled: true
+  05_For:
+    max_points: 0
+    disabled: true
+  06_While:
+    max_points: 0
+    disabled: true
+  07_For of:
+    max_points: 0
+    disabled: true
+  08_For in:
+    max_points: 0
+    disabled: true
+  09_Break i continue:
+    max_points: 0
+    disabled: true
+  "10_Operatory typ\xF3w":
+    max_points: 0
+    disabled: true
+...

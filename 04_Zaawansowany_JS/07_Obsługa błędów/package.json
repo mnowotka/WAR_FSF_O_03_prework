@@ -1,0 +1,13 @@
+{
+  "name": "07_obsluga-bledow",
+  "version": "1.0.0",
+  "description": "Obsługa błędów",
+  "scripts": {
+    "sorting-hall": "nodemon sorting-hall.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "04_typy_podstawowe",
+  "version": "1.0.0",
+  "description": "Typy podstawowe",
+  "main": "index.js",
+  "scripts": {
+    "variables": "nodemon src/tworzenie-zmiennych.js",
+    "primaries": "nodemon src/typy-podstawowe.js",
+    "objects": "nodemon src/obiekty.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "02_tablice-modyfikowanie",
+  "version": "1.0.0",
+  "description": "Modyfikacje tablic",
+  "scripts": {
+    "christmas-tree": "nodemon christmas-tree.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

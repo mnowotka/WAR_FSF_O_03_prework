@@ -1,0 +1,15 @@
+{
+  "name": "10_lodash-narzedzia-string",
+  "version": "1.0.0",
+  "description": "Lodash - narzędzia string",
+  "scripts": {
+    "word-puzzle": "nodemon --experimental-modules --no-warnings word-puzzle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "nodemon": "^2.0.2"
+  }
+}

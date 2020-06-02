@@ -1,0 +1,18 @@
+---
+exercises:
+  01_User agent:
+    max_points: 0
+    disabled: true
+  02_Cors i sandboxing:
+    max_points: 0
+    disabled: true
+  03_Skrypty Nodejs:
+    max_points: 0
+    disabled: true
+  04_Typy podstawowe:
+    max_points: 0
+    disabled: true
+  05_Konwersje:
+    max_points: 0
+    disabled: true
+...

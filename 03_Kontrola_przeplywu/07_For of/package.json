@@ -1,0 +1,13 @@
+{
+  "name": "05_for-of",
+  "version": "1.0.0",
+  "description": "Pętla \"for of\"",
+  "scripts": {
+    "dwarves": "nodemon dwarves.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

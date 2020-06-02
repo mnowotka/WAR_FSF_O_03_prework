@@ -1,0 +1,14 @@
+{
+  "name": "03_dziedziczenie",
+  "version": "1.0.0",
+  "description": "Dziedziczenie klas",
+  "scripts": {
+    "teapot": "nodemon teapot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.2"
+  }
+}

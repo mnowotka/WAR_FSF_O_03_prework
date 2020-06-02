@@ -1,0 +1,13 @@
+{
+  "name": "04_funkcje-w-es6",
+  "version": "1.0.0",
+  "description": "Funkcje w ES6",
+  "scripts": {
+    "refactor-this": "nodemon refactor-this.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

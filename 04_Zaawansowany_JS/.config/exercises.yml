@@ -1,0 +1,33 @@
+---
+exercises:
+  01_Tablice - tworzenie nowych struktur:
+    max_points: 0
+    disabled: true
+  02_Tablice - modyfikowanie:
+    max_points: 0
+    disabled: true
+  03_Tablice - wyszukiwanie:
+    max_points: 0
+    disabled: true
+  04_String - sanityzacja:
+    max_points: 0
+    disabled: true
+  05_String - walidacja danych:
+    max_points: 0
+    disabled: true
+  06_Daty:
+    max_points: 0
+    disabled: true
+  "07_Obs\u0142uga b\u0142\u0119d\xF3w":
+    max_points: 0
+    disabled: true
+  08_Lodash - operacje na tablicach:
+    max_points: 0
+    disabled: true
+  "09_Lodash - narz\u0119dzia funkcji":
+    max_points: 0
+    disabled: true
+  "10_Lodash - narz\u0119dzia String":
+    max_points: 0
+    disabled: true
+...

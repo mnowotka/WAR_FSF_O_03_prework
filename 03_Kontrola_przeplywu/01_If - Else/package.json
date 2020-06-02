@@ -1,0 +1,13 @@
+{
+  "name": "01_if-else",
+  "version": "1.0.0",
+  "description": "If i Else",
+  "scripts": {
+    "transportation": "nodemon transportation.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

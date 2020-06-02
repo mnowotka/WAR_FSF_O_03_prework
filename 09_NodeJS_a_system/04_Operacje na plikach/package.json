@@ -1,0 +1,13 @@
+{
+  "name": "04_operacje-na-plikach",
+  "version": "1.0.0",
+  "description": "Operacje na plikach",
+  "scripts": {
+    "ping-pong": "nodemon ping-pong.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

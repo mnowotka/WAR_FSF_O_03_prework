@@ -1,0 +1,13 @@
+{
+  "name": "04_switch_case",
+  "version": "1.0.0",
+  "description": "Switch / case",
+  "scripts": {
+    "robot": "nodemon robot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

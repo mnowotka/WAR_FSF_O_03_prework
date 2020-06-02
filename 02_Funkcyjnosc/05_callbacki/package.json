@@ -1,0 +1,13 @@
+{
+  "name": "05_callbacki",
+  "version": "1.0.0",
+  "description": "Callbacki",
+  "scripts": {
+    "post-office": "nodemon post-office.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

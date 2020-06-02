@@ -1,0 +1,13 @@
+{
+  "name": "09_break-i-continue",
+  "version": "1.0.0",
+  "description": "break i continue",
+  "scripts": {
+    "censor": "nodemon censor.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

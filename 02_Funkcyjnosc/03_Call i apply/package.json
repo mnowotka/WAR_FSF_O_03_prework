@@ -1,0 +1,13 @@
+{
+  "name": "03_call_apply",
+  "version": "1.0.0",
+  "description": "Call i Apply",
+  "scripts": {
+    "birds": "nodemon birds.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

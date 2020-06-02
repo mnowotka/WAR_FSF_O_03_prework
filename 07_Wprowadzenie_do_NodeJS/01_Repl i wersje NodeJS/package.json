@@ -1,0 +1,10 @@
+{
+  "name": "01_repl",
+  "version": "1.0.0",
+  "description": "REPL",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "03_wartosci_domyslne",
+  "version": "1.0.0",
+  "description": "Wartości domyślne",
+  "scripts": {
+    "robot": "nodemon robot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

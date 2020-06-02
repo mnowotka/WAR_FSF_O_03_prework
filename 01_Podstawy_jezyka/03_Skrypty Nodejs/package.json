@@ -1,0 +1,12 @@
+{
+  "name": "03_skrypty_nodejs",
+  "version": "1.0.0",
+  "description": "Przeglądarka a NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "global-test": "node global-test.js",
+    "start": "node ../01_User_agent/klient/script.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

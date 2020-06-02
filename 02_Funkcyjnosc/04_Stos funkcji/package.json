@@ -1,0 +1,13 @@
+{
+  "name": "04_stos_funkcji",
+  "version": "1.0.0",
+  "description": "Stos wywołań, wywołania rekurencyjne",
+  "scripts": {
+    "stack": "nodemon stack.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

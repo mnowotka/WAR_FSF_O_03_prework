@@ -1,0 +1,12 @@
+---
+exercises:
+  01_Definicja klasy:
+    max_points: 0
+    disabled: true
+  02_Metody statyczne:
+    max_points: 0
+    disabled: true
+  03_Dziedziczenie:
+    max_points: 0
+    disabled: true
+...

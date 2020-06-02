@@ -1,0 +1,13 @@
+{
+  "name": "01_synchronicznosc-a-asynchronicznosc",
+  "version": "1.0.0",
+  "description": "Synchroniczność a asynchroniczność",
+  "scripts": {
+    "rock-paper": "nodemon rock-paper.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

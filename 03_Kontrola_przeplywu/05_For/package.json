@@ -1,0 +1,13 @@
+{
+  "name": "05_for",
+  "version": "1.0.0",
+  "description": "Pętla \"for\"",
+  "scripts": {
+    "checkerboard": "nodemon checkerboard.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

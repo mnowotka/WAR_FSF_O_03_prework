@@ -1,0 +1,13 @@
+{
+  "name": "01_array-nowe-metody",
+  "version": "1.0.0",
+  "description": "Array API - nowe metody",
+  "scripts": {
+    "sword": "nodemon sword.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

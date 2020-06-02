@@ -1,0 +1,13 @@
+{
+  "name": "06_gettery-i-settery",
+  "version": "1.0.0",
+  "description": "Gettery i settery",
+  "scripts": {
+    "counter": "nodemon counter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

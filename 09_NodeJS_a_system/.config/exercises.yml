@@ -1,0 +1,15 @@
+---
+exercises:
+  01_Import vs RequireJS:
+    max_points: 0
+    disabled: true
+  02_Event emitter-y:
+    max_points: 0
+    disabled: true
+  "03_HTTP - przyk\u0142ad":
+    max_points: 0
+    disabled: true
+  04_Operacje na plikach:
+    max_points: 0
+    disabled: true
+...

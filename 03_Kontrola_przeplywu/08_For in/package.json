@@ -1,0 +1,13 @@
+{
+  "name": "08_for-in",
+  "version": "1.0.0",
+  "description": "Pętla \"for in\"",
+  "scripts": {
+    "diet": "nodemon diet.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

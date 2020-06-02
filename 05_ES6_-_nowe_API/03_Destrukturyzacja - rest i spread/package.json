@@ -1,0 +1,13 @@
+{
+  "name": "03_destrukturyzacja",
+  "version": "1.0.0",
+  "description": "Destrukturyzacja - rest i spread",
+  "scripts": {
+    "scavenger": "nodemon scavenger.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

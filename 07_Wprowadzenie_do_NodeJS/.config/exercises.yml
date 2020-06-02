@@ -1,0 +1,9 @@
+---
+exercises:
+  01_Repl i wersje NodeJS:
+    max_points: 0
+    disabled: true
+  "02_NVM i zarz\u0105dzanie wersjami NodeJS":
+    max_points: 0
+    disabled: true
+...

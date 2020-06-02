@@ -1,0 +1,18 @@
+---
+exercises:
+  01_Tworzenie funkcji:
+    max_points: 0
+    disabled: true
+  02_Kontekst funkcji:
+    max_points: 0
+    disabled: true
+  03_Call i apply:
+    max_points: 0
+    disabled: true
+  04_Stos funkcji:
+    max_points: 0
+    disabled: true
+  05_callbacki:
+    max_points: 0
+    disabled: true
+...

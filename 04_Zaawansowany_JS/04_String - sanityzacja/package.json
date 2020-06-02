@@ -1,0 +1,13 @@
+{
+  "name": "04_string-sanityzacja",
+  "version": "1.0.0",
+  "description": "Czyszczenie zmiennych znakowych",
+  "scripts": {
+    "good-behaviour": "nodemon good-behaviour.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

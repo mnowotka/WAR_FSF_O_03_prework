@@ -1,0 +1,14 @@
+{
+  "name": "01_import-vs-requirejs",
+  "version": "1.0.0",
+  "description": "Importy vs RequireJS",
+  "scripts": {
+    "import-export": "nodemon --experimental-modules --no-warnings import-export.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

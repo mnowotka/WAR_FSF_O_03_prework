@@ -1,0 +1,13 @@
+{
+  "name": "02_kontekst_funkcji",
+  "version": "1.0.0",
+  "description": "Kontekst funkcji",
+  "scripts": {
+    "context": "nodemon context.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

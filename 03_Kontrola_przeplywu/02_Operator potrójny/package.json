@@ -1,0 +1,13 @@
+{
+  "name": "02_operator-potrojny",
+  "version": "1.0.0",
+  "description": "Operator potrójny",
+  "scripts": {
+    "foobar": "nodemon foobar.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

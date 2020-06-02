@@ -1,0 +1,13 @@
+{
+  "name": "01_definicja-klasy",
+  "version": "1.0.0",
+  "description": "Definicja klasy",
+  "scripts": {
+    "lightsaber": "nodemon lightsaber.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "05_string-walidacja-danych",
+  "version": "1.0.0",
+  "description": "String - walidacja danych",
+  "scripts": {
+    "secret-code": "nodemon secret-code.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

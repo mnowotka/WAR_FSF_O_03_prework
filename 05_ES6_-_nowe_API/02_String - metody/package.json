@@ -1,0 +1,13 @@
+{
+  "name": "02_string-metody",
+  "version": "1.0.0",
+  "description": "String - nowe metody",
+  "scripts": {
+    "string-sword": "nodemon string-sword.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

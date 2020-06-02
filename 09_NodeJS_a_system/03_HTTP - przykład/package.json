@@ -1,0 +1,14 @@
+{
+  "name": "03_http-przyklad",
+  "version": "1.0.0",
+  "description": "HTTP - przykład",
+  "scripts": {
+    "echo": "nodemon echo.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

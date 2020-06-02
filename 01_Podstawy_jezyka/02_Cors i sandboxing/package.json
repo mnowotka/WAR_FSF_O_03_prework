@@ -1,0 +1,16 @@
+{
+  "name": "02_cors_sandboxing",
+  "version": "1.0.0",
+  "description": "CORS i sandboxing a serwer",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./klient",
+    "start-server": "node ./serwer/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.0"
+  }
+}

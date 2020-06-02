@@ -1,0 +1,13 @@
+{
+  "name": "05_mapy-i-sety",
+  "version": "1.0.0",
+  "description": "Mapy i sety",
+  "scripts": {
+    "books-collection": "nodemon books-collection.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

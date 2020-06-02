@@ -1,0 +1,13 @@
+{
+  "name": "01_tablice-tworzenie-nowych-struktur",
+  "version": "1.0.0",
+  "description": "Tworzenie nowych struktur z tablic",
+  "scripts": {
+    "potato-song": "nodemon potato-song.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

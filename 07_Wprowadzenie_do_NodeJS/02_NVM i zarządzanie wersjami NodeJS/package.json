@@ -1,0 +1,13 @@
+{
+  "name": "02_nvm-zarzadzanie-wersjami",
+  "version": "1.0.0",
+  "description": "NVM i zarządzanie wersjami",
+  "scripts": {
+    "solution": "nodemon solution.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "0.9.17"
+  }
+}

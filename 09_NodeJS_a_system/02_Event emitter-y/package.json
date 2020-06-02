@@ -1,0 +1,13 @@
+{
+  "name": "02_event-emittery",
+  "version": "1.0.0",
+  "description": "Event emittery",
+  "scripts": {
+    "shout": "nodemon shout.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
