@@ -20,18 +20,20 @@ function getThatName(func) {
 
 console.log(getThatName(y));
 console.log(getThatName(z));
-console.log(getThatName(function () {}));
+console.log(getThatName( function whereIsJson() {}));
+//Funkcja nie miała nazwy
 
 console.log('--- FUNKCJA A ZMIENNA: ---');
 
 function hello(who, suffix) {
   return 'Hello ' + who + suffixer(who, suffix);
 
-  const suffixer = function suffixer(who, suffix) {
+   function suffixer(who, suffix) {
     return suffix.repeat(who.length);
-  }
+   }
+//zmiana do globalnego kontekstu, a nie zmiennej
 }
+console.log(hello('JavaScript', '!'));
 
-// console.log(hello('James', '!'));
 
 
