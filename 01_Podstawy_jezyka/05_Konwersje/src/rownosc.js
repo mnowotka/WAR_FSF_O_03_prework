@@ -14,7 +14,7 @@ function findValue(obj, val, path = '') {
       if (valuePath) {
         return valuePath;
       }
-    } else if (value == val) {
+    } else if (value === val) { //potrójne a nie podwójne przyrównanie
       return path + key;
     }
   }

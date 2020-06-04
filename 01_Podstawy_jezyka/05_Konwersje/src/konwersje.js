@@ -8,25 +8,45 @@ const alreadyNumber = 3.14;
 
 console.log('---PONIŻEJ parseFloat: ---');
 //
-
+console.log(parseFloat(pureNumber));
+console.log(parseFloat(numberWithString));
+console.log(parseFloat(stringWithoutNumber));
+console.log(parseFloat(alreadyNumber));
 
 console.log('---PONIŻEJ parseInt: ---');
 //
+console.log(parseInt(pureNumber));
+console.log(parseInt(numberWithString));
+console.log(parseInt(stringWithoutNumber));
+console.log(parseInt(alreadyNumber));
 
 
 console.log('---PONIŻEJ konstruktor new Number(): ---');
 //
+const newA = new Number(pureNumber);
+const newB = new Number(numberWithString);
+const newC = new Number(stringWithoutNumber);
+const newD = new Number(alreadyNumber);
+console.log(newA);
+console.log(newB);
+console.log(newC);
+console.log(newD);
 
 
-// Poniżej źle działająca funkcja. Spróbuj naprawić ją tak, żeby działała dla wszystkich numerów
 function addToNum(num) {
-  if (!num) {
+  if (num === !Number) {
     throw new Error('Passed variable is not a number!')
   }
-
-  return num + (num * 10);
+  return (num + (num*10)) ;
 }
 
-addToNum(0);
-addToNum(1);
-addToNum(-1);
+let num1 = addToNum(1);
+let num2 = addToNum(25);
+let num3 = addToNum(-1);
+let num4 = addToNum(0);
+console.log("addToNum");
+console.log(num1);
+console.log(num2);
+console.log(num3);
+console.log(num4);
+
