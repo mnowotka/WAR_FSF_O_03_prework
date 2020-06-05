@@ -44,6 +44,11 @@ function wyslijTradycyjnie(paczka, funkcjaObslugi) {
     return funkcjaObslugi(paczka, 'DORĘCZONO');
   }, 5000); // Czas doręczenia - 5000 milisekund
 }
-
+function wyślijJsonem(package, serviceFunction) {
+return setTimeout(function () {
+  return serviceFunction(package, 'Doręczył Json')
+}, 2500) // Czas doręczenia - 2500 bo Json to szybki gość
+}
 // Poniżej umieść swój kod. Na start masz przykład wysyłki tradycyjnej
 nadaj(mojaPaczka, wyslijTradycyjnie);
+nadaj(mojaPaczka, wyślijJsonem);
