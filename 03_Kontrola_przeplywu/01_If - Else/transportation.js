@@ -5,6 +5,24 @@
  * @returns string środek transportu - `car`, `bicycle` albo `walking`
  */
 function chooseTransportationMode(distance, weather) {
+    if (weather === 'snow') {
+        console.log("Json is freezing. Choose the car")
+    } else if ((weather === 'rain' && distance < 501) || ((weather === 'fair' && distance < 1001))) {
+        console.log("Json could go for a walk");
+    } else if ((weather === 'rain' && distance < 2001) || (weather === 'fair' && distance < 4001)) {
+        console.log("Json will ride a bike");
+    } else if ((weather === 'rain' && distance > 2000) || (weather === 'fair' && distance > 4000)) {
+        console.log("Json have to go be car");
+        //dłuższa wersja,wolę bo jest bardziej śmieszkową i rozbudowana :p
+        // } else if (weather === 'fair' && distance < 1001) {
+        //     console.log("Json is happy, he going to eat pizza")
+        // } else if (weather === 'fair' && distance < 4001) {
+        //     console.log("Json will ride a bike, during the sunny day")
+        // } else if  {
+        //     console.log("Json will be sweaty, because He don`t have air conditioning\n")
+    } else {
+        return "JSON stay at home"
+    }
 }
 
 // Nie modyfikuj poniższych funkcji!

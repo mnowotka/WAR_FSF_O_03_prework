@@ -15,13 +15,32 @@ function emitSound() {
 }
 
 function robotAction(input, shouldEmitSound) {
-  // Tu umieść instrukcję if() która zadecyduje o emitowaniu dźwięku
-
-  // Tu umieść swoją instrukcję switch/case
-  switch (input) {
+  if (shouldEmitSound === true) {
+    emitSound();// Spróbuj wygenerować dźwięk
+  } else {
+    console.log('--------');
   }
-}
+    switch (input) {
+      case 'shout':
+        console.log('MOVE BACK');
+            break;
+      case 'kick':
+        console.log('MOVE BACK');
+            break;
+      case 'call':
+        console.log('MOVE FORWARD');
+            break;
+      case 'waveLeft':
+        console.log('MOVE LEFT');
+        break;
+      case 'waveRight':
+        console.log('MOVE RIGHT');
+            break;
+      default :
+        console.log(DEFAULT_ACTION);
+    }
 
+}
 // Asercje pozostają takie same
 console.assert(robotAction('shout', false) === 'MOVE BACK', 'Wrong action!');
 console.assert(robotAction('push', true) === 'TWIST AROUND', 'Wrong action!');

@@ -1,8 +1,7 @@
 function generateSnake(lines, length) {
   // Używana do śledzenia aktualnego rzędu
   let currentRow = 0;
-
-  do {
+  while (currentRow < lines) {
     let snakeRow = ``;
 
     if (currentRow === 0) {
@@ -32,9 +31,12 @@ function generateSnake(lines, length) {
 
     // Drukujemy "linijkę" węża
     console.log(snakeRow);
-  } while (currentRow < lines);
+  }
 }
 
 generateSnake(10, 10);
 console.log('*********');
 generateSnake(5, 5);
+console.log('*********');
+generateSnake(0, 0);
+//Czy o to chodziło ?

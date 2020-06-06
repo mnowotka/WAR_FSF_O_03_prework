@@ -5,21 +5,25 @@ const diets = {
 };
 
 // Bazowa fraza - użyj jej do budowania dalszych fraz
-const basePhrase = 'Following animals are ';
-
+const basePhrase = 'Following animals are';
+const check = Object.entries( diets.carnivore);
+console.log(check);
 /**
  * Zaimplementuj poniższą funkcję tak, aby wygenerować frazy, których oczekuje asercja
  * @param dietTypes
  */
 function summarizeDiets(dietTypes) {
   // Przygotowujemy zmienną na frazy
-  const phrases = [];
+  let phrases = [];
+//   // Tutaj umieść swój kod
+  for (const dietType in dietTypes) {
+    if (dietTypes.hasOwnProperty(dietType)){
+      console.log(`${basePhrase} ${dietType}: ${dietTypes[dietType].join(", ")}`);
+    phrases += basePhrase + dietType + dietTypes[dietType].join( " , ");
 
-  // Tutaj umieść swój kod
-
-  return phrases;
+    }
+  } return phrases;
 }
-
 const summaries = summarizeDiets(diets);
 
 console.assert(summaries && summaries.length === 3, 'Wrong length of summaries!');
