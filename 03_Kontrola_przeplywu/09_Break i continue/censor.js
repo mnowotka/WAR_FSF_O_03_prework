@@ -7,9 +7,11 @@ const phrases = [
   'Mmm. And Michael just sort of... bleep popped up, did he',
   'A unique child delivered of a unique mother',
 ];
+function censor(phrasesToCensors) {
+  const censoredPhrases = ["bloop", "bleep"];
+  for ( const phrasesToCensor of phrasesToCensors) {
 
-function censor(phrasesToCensor) {
-  const censoredPhrases = [];
+    }
 
   return censoredPhrases;
 }
